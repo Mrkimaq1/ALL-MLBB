@@ -1,0 +1,537 @@
+if (getIntent().getStringExtra("menu").equals("allhero")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Aamon")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://media-assets-ggwp.s3.ap-southeast-1.amazonaws.com/2022/02/Aamon-320x180.jpg");
+	map.put("excute", "https://github.com/Mrkimaq1/AMON/blob/main/Cyber%20Assassin.zip?raw=true");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit");
+	map.put("URL", "https://media-assets-ggwp.s3.ap-southeast-1.amazonaws.com/2022/10/SAMPUL-AAMON-320x180.jpg");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Star");
+	map.put("URL", "https://gumlet.assettype.com/afkgaming%2F2022-12%2Fd60411b4-f050-48fd-95c6-0ea87d44a4ee%2FMLBB_Cyber_Aamon.jpg?compress=true&dpr=1&w=480");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Akai")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://w0.peakpx.com/wallpaper/726/327/HD-wallpaper-akai-legends-ml-mlbb-moba-mobile-skin.jpg");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit1");
+	map.put("URL", "https://en.esportsku.com/wp-content/uploads/2022/12/akai-elite-450x300.jpg");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Epic");
+	map.put("URL", "https://media.hobigame.id/wallpaper/mobile-legends/akai-imperial-assassin-mobile-legends-hd-for-pc-hobigame.id.jpg");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Star");
+	map.put("URL", "https://i1.wp.com/yunoya.id/wp-content/uploads/2018/05/akazonae-samurai-mobile-legends.jpg?fit=800%2C450&ssl=1");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Kunfu");
+	map.put("URL", "https://www.bountie.io/blog/wp-content/uploads/2022/09/akai_kung_fu_panda_skin_8k_wallpaper_by_newjer53_dfbnu3b-fullview-768x430.png");
+	map.put("excute", "https://github.com/Mrkimaq1/ALL-MLBB/blob/main/Akai%20Po%20Kungfu%20Panda.zip?raw=true");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit2");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5i7HLjPysXDasKkcItX34zNIGYD8a-u-AWQ&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin S10");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWojcPqhcigXfDN4s4LhjcdAzi5-2qKiaUkg&usqp=CAU");
+	map1.add(map);
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Aldous")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbN2gfdH2gGNe8m8iM7mFFn-2PsfZAFmgIZA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfIxpI4rtW0qjv_ZWppbz_JXyOOzJ1tuzpag&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Star");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxkCfRCkP8MMpJvEL6bT1uR7Rw5GVkkrrB-Q&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin M1");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREskIpnuNx34en_u8cbL0nzETAHuFsRwke8Q&usqp=CAU");
+	map.put("excute", "https://github.com/Mrkimaq1/ALL-MLBB/blob/main/Adous%20Default%20To%20M1%20Skin%20Script.zip?raw=true");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Blazing");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnBCsxCvtghpm6gBDHOXQfzblBc5rX3nHw2Q&usqp=CAU");
+	map.put("excute", "https://github.com/Mrkimaq1/ALL-MLBB/blob/main/Aldous%20default%20to%20epic.zip?raw=true");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Collector");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ajWonZ1Tw1J-90amheGoVSCq_DFbZbD8sw&usqp=CAU");
+	map.put("excute", "https://github.com/Mrkimaq1/ALL-MLBB/blob/main/Aldous%20Default%20To%20Collector%20Skin%20Script.zip?raw=true");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Starstream");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3hu4wJYSRxZhta1jh8ki_k8TND3W7rE36pQ&usqp=CAU");
+	map.put("excute", "https://github.com/Mrkimaq1/ALL-MLBB/blob/main/Aldous%20Transformers%20Skin%20Script.zip?raw=true");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Alice")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnxBwlSlAPEDrSr0S3ROn2S7GAPo95uUzSsw&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin KOF");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPuCm1-B_8UmLRCeh3CIkwCUpghSu_lqftFA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Spesial");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR829ZnbsJKs6BzibIdkuha7K3hizV1Qz4kYw&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Star");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvRHrSnnbfE9my-w8lV0RuJY-NDIwfQoqaAA&usqp=CAU");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Alpha")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLCT0rR7Bg-j9Qkfq-nAJOK4dHs8fUFunYkQ&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Epic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0KpRP63ksPXFBYRjbQQYUIHJGD_2vB4qI3Q&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Spesial");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYkvB_0yqLrWkLoN2unx383PkvRYMliiejaQ&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Abys");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-RQfsL803BzVec-ZEt_iRUHKAoKhmzTL7iA&usqp=CAU");
+	map.put("excute", "https://github.com/Mrkimaq1/ALL-MLBB/blob/main/Script%20Skin%20Alpha%20Default%20To%20Abyss%20-%20LBY%20GAMING.zip?raw=true");
+	map1.add(map);
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Alucard")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiB6KWK_9DGWdisZUnaYdV3KLp4q-HNf0mlQ&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Epic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa1lK82iKDcPQjeSAnKtP0II7dUdwcSGoj_w&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Star");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6D6KveE4iB5xiBlkSfsLkxUrroh3OmRByrQ&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Valentin");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBxCabVktIbnmCwDYAnN-CV2mpHGqVofwH8A&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Legend");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTICuUN7el9FbmzJIoN0HjxL1kpVzlx54OmvA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Lightborn");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MB9nwoWwRGTbCnyWTU3y6vrxGp8YnXELxQ&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Starwans");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMMZ0hPfFqfHXPhQgv2qmug5CVSu_Xgx0mA&usqp=CAU");
+	map.put("excute", "https://github.com/Mrkimaq1/ALL-MLBB/blob/main/Alucard%20Star%20Wars%20Skin%20Script.zip?raw=true");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Angela")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjgwMi3rxCXLWv84Q9R-WscISJ3qSHZA0Gpg&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Star");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8N--T_zokUwXhXFQCcyh73u74e5Pk8VlYnA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Venom");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp4pGeihfguI6eeEOIF6nbzmToskXVYlFAAA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Halloween");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZcDWRCLmNILRxNE6zLDkG-ZcAQTBJX2L8mw&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Summer");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJD8KH7ZsjlchgRytvtsX0OTnhEZV_hkLa5Q&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Colector");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVwLt8QKcMiwPGqVF_rinIWcjebAFNmv72pw&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Limited");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHIA6iTXLVkt-SU1ZrFIYqaJ6un17hQZBZ9g&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Aspirant");
+	map.put("URL", "https://i1.wp.com/gemskul.com/wp-content/uploads/2022/11/aspirants-angela-2_11zon.jpeg");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Argus")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmUfKFxemk-H8XJN5eSfVWJpfYPtP6lg9fdQ&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvC1gKOVuWeFYXwe2VJtIa2k0sK1k_8tCaCA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Star");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzFMT7f5NVuQg1Oup8Xla-S_q0Q1D41r4HMw&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin S27");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqQzUpe8KvSgo4SFFvHBFUavcDV-KQpQSbYA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Starwars");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7IGNDW7BXGAcZPJi3Nh4u2Ww1dMTeNHNX9w&usqp=CAU");
+	map.put("excute", "https://github.com/Mrkimaq1/ALL-MLBB/blob/main/Argus%20Star%20Wars%20Skin%20Script.zip?raw=true");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Arlott")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "-");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Atlas")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEGqRYfp44RjwLXWVtGnlaIZpaW5bx9ItHYA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjHJj45A-4l8sXZ0WRsgPfx24IMHb2x8aK2w&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Star");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKZ5UKb31-rMK9-CCkUDH2Gdw0UlCJdsW0Kg&usqp=CAU");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Aulus")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmRLzmMhjyItkzZo95zUnbHOSAoXyYJaGNyw&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGclx7PS4t7IqJXVbI-nQ54qutYvzAwhoe-g&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Spesial");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqBvBl5l5lx27kAwYytsVi_VPIOEPdFKagpg&usqp=CAU");
+	map1.add(map);
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Aurora")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "-");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Badang")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTERBtj0R14dL8mT_ljSjqlldoTDqGZc7zpOQ&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Spesial");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpTZSaU6u2G27zl3o__mgEd_yFtU1aKDsn8A&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Zodiac");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHzFhoPUt-H69OS7pbExeg5oasn08ody1K5A&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Colector");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlseCX0ZMETjAGw5guGnQAZx_6nG-lKNF_MA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Saint Seiya");
+	map.put("URL", "https://i1.wp.com/gemskul.com/wp-content/uploads/2022/09/badang-saint-saiya.jpg");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Sagitarius");
+	map.put("URL", "https://i1.wp.com/gemskul.com/wp-content/uploads/2022/10/Badang-Sagitarius-Seiya.jpeg");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Balmond")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbaRx2A_r6gd9FRPbuxhL4hlVl3yXe2wW8Pw&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit 1");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnA8ON2Ponmr8pnxJpYLarN4noZRN2wt0XdA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit 2");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsg6c2q-FHobRfCMtwRsMH5zCyh1dWHg5S0A&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Colector");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwlGpgRh9_waAdkDA__wDWaRMvV4bVfvTa0A&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Saint Spesial");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJKwyQgaKENVbvEzWse7tkdG7cPqLg7yAXBw&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Star");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHG0wK-PJczSbzdaXa8lR5WXJExDtl4rceHA&usqp=CAU");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Bane")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyScqMWWSqX5pyVCSaphUB7EZc1VizL2a5Iw&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin S11");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo3A7rhYUZMzCVMyLMnWI9sg62wHVsqdWOEA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5I3eIbJTPRgy6h99rinRA_gAZaghfWWqNA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Epic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1UKZpHMvHAAF_zc_1OhIyMybcbEIzoeh_w&usqp=CAU");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Barats")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9mi75Ma7wv-LU8hcTxCBRRg8h5FXN-K3eMA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSynO8kbwJgRdqr34ig202o_tVst7P_YjywQ&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Halloween");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHKQbfwk4G9Mva0zGQ4wXai3zhFPo95JT0jQ&usqp=CAU");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Baxia")) {
+	textview1.setText("ALL SKIN MLBB");
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Betrix")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTqxveNMpmH4eJzDJDYxhwos4h5-_dMUJwIg&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdzpc7DugLBt7p48mTqVKEnglTx_S6kRvYqA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Star");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFHVtGP2iE1XAHdyYukur5iqSvMOo5dYJvXA&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin M3");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROFrfF0plV_u_F-EeOkz6F5itW7SZs7rnQ4Q&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Prime");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnW7i8GmRcew-XuIEbNZohBq3Q88ei2QSMwA&usqp=CAU");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Belerick")) {
+	textview1.setText("ALL SKIN MLBB");
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Bendetta")) {
+	textview1.setText("ALL SKIN MLBB");
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Bruno")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit 1");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5lbSo5Yg3GxSaxpX4W2n5wCYoVskQywNV1w&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Elit 2");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtR2rXBx1kmJnTyRd7xP_h6SatX5393m01bQ&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Spesial 1");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPhe_JgaP9VZMiXKD8mTT6F1-PS_-UyXKUg&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Spesial 2");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6YE9YhJiBV7FInnsHjJEP-5C8gIXM7Jqjjg&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Hero");
+	map.put("URL", "https://i1.wp.com/gemskul.com/wp-content/uploads/2022/11/bruno-firebolt_11zon.jpg");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Halo Striker");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWknT3rotbbY_9etIYXmot8uXkjXClrN8d4Q&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Neymar");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaWxrkM5YrJnjK9c5AdP_vkGc0NmeP8Rfq4Q&usqp=CAU");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Brody")) {
+	textview1.setText("ALL SKIN MLBB");
+	map = new HashMap<>();
+	map.put("hero", "Skin Basic");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr5JXvlScCbGldrJ7aABkFhuQ6qe8WJHmmTQ&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin STUN");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA8Vt8vTqyQxUrmccLDOAiC0a63PwdBECV1A&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Star");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCisxntxxCJiZcxcswFG3_PaWKtQZPuEwlRg&usqp=CAU");
+	map1.add(map);
+	map = new HashMap<>();
+	map.put("hero", "Skin Colector");
+	map.put("URL", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTth_2OQbcSGtq4bENsMcwKhqJzuRlEdsvKww&usqp=CAU");
+	map1.add(map);
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Carmilla")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Cecilion")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Chang'e")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Chou")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Claude")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Clint")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Cylops")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Diggie")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Dyrroth")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Esmeralda")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Estes")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Eudora")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Edith")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Fanny")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Faramis")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
+if (getIntent().getStringExtra("menu").equals("Floryn")) {
+	textview1.setText("ALL SKIN MLBB");
+	
+	gridview4.setAdapter(new Gridview4Adapter(map1));
+}
